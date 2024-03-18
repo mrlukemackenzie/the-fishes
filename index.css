@@ -2,6 +2,10 @@
 /* Custom properties   */
 /* ------------------- */
 
+.link-style:hover {
+  color: red;
+}
+
 .box {
   width: 200px;
   height: 100px;

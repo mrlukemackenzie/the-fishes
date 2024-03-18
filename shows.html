@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet">
+      
+  <!-- Our custom CSS -->
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Space tourism website</title>
+  <script src="navigation.js" defer></script>
+  <script src="tabs.js" defer></script>
+</head>
+
+<body class="crew">
+  <a class="skip-to-content" href="#main">Skip to content</a>
+  <header class="primary-header flex">
+   <!-- <div>
+      <img src="./assets/shared/logo.svg" width="125px" xalt="space tourism logo" class="logo">
+    </div> -->
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+    <nav> 
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
+            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html">Home</a>
+            <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="destination.html">Shows</a>
+            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="sounds.html">Sounds</a>
+            <!--<li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="technology.html">Technology</a>-->
+        </ul>
+    </nav>
+  </header>
+  
+ <main id="main" class="grid-container grid-container--destination flow">
+    <h1 class="numbered-title">The Fishes And I<div class="lmtrans">//SHOWS//</div></h1>
+    
+    <picture id="moon-image">
+    <div>27.04.24 Corn Exchange, Hertfordshire</div>
+    </picture>
+   
+    <picture hidden id="mars-image">
+      <div>19.07.23 The Horn, St Albans, Hertfordshire</div>
+      <br>04.04.24 The Horn, St Albans, Hertfordshire</br>
+      <br>24.04.24 Corn Exchange, Hertfordshire</br>
+      <br>09.06.26 A venue, Essex</br>
+      <br>04.04.24 The Horn, St Albans, Hertfordshire</br>
+      <br>24.04.24 Corn Exchange, Hertfordshire</br>
+      <br>09.06.26 A venue, Essex</br>
+    </picture>
+
+   
+    <picture hidden id="europa-image">
+      <source srcset="assets/destination/TTH_445.webp" type="image/webp">
+      <img src="assets/destination/image-europa.png" alt="the planet europa">
+    </picture>
+    <picture hidden id="titan-image">
+      <source srcset="assets/destination/image-titan.webp" type="image/webp">
+      <img src="assets/destination/image-titan.png" alt="the moon titan">
+    </picture>
+    
+    
+    <div class="tab-list underline-indicators" role="tablist" aria-label="destination list">
+        <button aria-selected="true" role="tab" aria-controls="moon-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="0" data-image="moon-image">2024&nbsp;|</button>
+        <button aria-selected="false" role="tab" aria-controls="mars-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="-1" data-image="mars-image">Gigography</button><p></p>
+    <!--<button aria-selected="false" role="tab" aria-controls="europa-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="-1" data-image="europa-image">Time To Heal</button><p></p>-->
+    <!--<button aria-selected="false" role="tab" aria-controls="titan-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="-1" data-image="titan-image">Titan</button><p></p>-->
+    </div>
+
+    <!-- The moon -->
+    <article class="destination-info flow" id="moon-tab" tabindex="0" role="tabpanel">  </article>
+    
+    <!-- Mars -->
+    <article hidden class="destination-info flow" id="mars-tab" tabindex="0"  role="tabpanel"> </article>
+   
+  </main>
+  
+<body>
+
+
+  
+</body>
+</html>

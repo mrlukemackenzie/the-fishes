@@ -2,6 +2,11 @@
 /* Custom properties   */
 /* ------------------- */
 
+.link-style {
+  text-decoration: none;
+  color: white;
+}
+
 .link-style:hover {
   color: red;
 }

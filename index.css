@@ -125,6 +125,7 @@ body {
 p.LM {
 font-size: 1.2rem;
 font-weight: 200;
+text-decoration: none;
 }
 
 /* make images easier to work with */

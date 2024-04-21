@@ -410,7 +410,7 @@ select {
     .primary-navigation {
         --gap: clamp(0.5rem, 3vw, 3rem);
         list-style: none;
-        background: cadetblue;
+        background: #775bc7;
         /*backdrop-filter: blur(9.5rem);*/
     }
     

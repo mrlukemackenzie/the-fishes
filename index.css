@@ -123,7 +123,7 @@ body {
     /*font-size: var(---500);*/
     font-size: 1.6rem;
     color: hsl( var(--clr-white) );
-    background: linear-gradient(270deg, rgb(88 87 197 / 98%) 4%, rgb(86 126 165) 34%, rgb(94 194 150) 100%);
+    background: linear-gradient(270deg, rgb(147, 125, 208) 4%, rgb(119, 91, 199) 34%, rgb(58, 58, 58) 100%);
     /*line-height: 1.5;*/
     min-height: 100vh;
     /*display: grid;*/
@@ -410,7 +410,7 @@ select {
     .primary-navigation {
         --gap: clamp(0.5rem, 3vw, 3rem);
         list-style: none;
-        background: cadetblue;
+        background: #775bc7;
         /*backdrop-filter: blur(9.5rem);*/
     }
     
@@ -489,7 +489,7 @@ select {
     cursor: pointer;
     padding: var(--underline-gap, .1rem) 0;
     border: 0;
-    border-bottom: .2rem solid hsl( var(--clr-white) / 0 );
+    border-bottom: .2rem solid hsl(var(--clr-white) / 0);
     background-color: transparent;
 }
 
@@ -498,12 +498,10 @@ select {
     /*border-color: hsl( var(--clr-white) / .5);*/
 }
 
-.underline-indicators > .active,
-.underline-indicators > [aria-selected="true"] {
-    color: hsl( var(--clr-white) / 1);
-    border-color: #7715e6;
+.underline-indicators > .active, .underline-indicators > [aria-selected="true"] {
+    color: hsl(var(--clr-white) / 1);
+    border-color: #ee3535;
 }
-
 .tab-list {
     --gap: 2rem;
 }

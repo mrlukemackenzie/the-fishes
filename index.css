@@ -367,7 +367,7 @@ select {
 @media (max-width: 35rem) {
 
     body {
-        line-height: 1.4;
+        /*line-height: 1.4;*/
     }
 
 

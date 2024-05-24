@@ -358,6 +358,23 @@ select {
 
 @media (max-width: 35rem) {
 
+    footer {
+        width: 100vw;
+        position: relative;
+        bottom: 4rem;
+      }
+      
+      footer div {
+          background-color: #302e36;
+          margin: -31% -5% -77% 9%;
+      }
+        
+      .row {
+          display: flex;
+          align-items: center;
+        }
+        
+
     .tab-list {
     --gap: 2rem;
     padding-bottom: 2rem;
@@ -691,7 +708,7 @@ body {
     color: hsl( var(--clr-white) / .5);
 }
 
-@media (min-width: ) {
+@media (min-width:) {
     
     .destination-meta {
         flex-direction: row;
@@ -767,19 +784,4 @@ body {
 
 
 
-footer {
-  width: 100vw;
-  position: relative;
-  bottom: 4rem;
-}
 
-footer div {
-    background-color: #302e36;
-    margin: -31% -5% -77% 9%;
-}
-  
-.row {
-    display: flex;
-    align-items: center;
-  }
-  

@@ -3,6 +3,11 @@
 /* ------------------- */
 
 
+/*Align 2024 | Gigoraphy when the number of shows in the lists differ*/
+.space { 
+    margin-top: 800px; 
+}
+
 footer {
     width: 100vw;
     position: relative;
@@ -137,9 +142,11 @@ p {
 
 /* set up the body */
 body {
-    font-family: var(--ff-sans-normal);
+    /*font-family: var(--ff-sans-normal);*/
+   
     /*font-family: sans-serif;*/
     /*font-size: var(---500);*/
+    font-family: system-ui;
     font-size: 1.6rem;
     color: hsl( var(--clr-white) );
     background: linear-gradient(270deg, rgb(147, 125, 208) 4%, rgb(119, 91, 199) 34%, rgb(58, 58, 58) 100%);
@@ -161,6 +168,7 @@ img,
 picutre {
     max-width: 125%;
     display: block;
+    border-radius: 3%;
 }
 
 /* make form elements easier to work with */

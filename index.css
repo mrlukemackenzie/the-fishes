@@ -28,11 +28,11 @@ footer {
 
 .link-style {
   text-decoration: none;
-  color: white;
+  color: white;  
 }
 
 .link-style:hover {
-  color: #7715e6;
+  color: #ee3535;
 }
 
 .box {

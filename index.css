@@ -3,7 +3,7 @@
 /* ------------------- */
 
 
-/*Align 2024 | Gigoraphy when the number of shows in the lists differ*/
+/*Align [2024 | Gigoraphy] when the number of shows in the two lists differ.*/
 .space { 
     margin-top: 800px; 
 }
@@ -24,8 +24,6 @@ footer {
       align-items: center;
     }
     
-
-
 .link-style {
   text-decoration: none;
   color: white;  

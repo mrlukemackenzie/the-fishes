@@ -3,7 +3,12 @@
 /* ------------------- */
 
 
-/*Align 2024 | Gigoraphy when the number of shows in the lists differ*/
+/*Ajust number of px to align "2024 | Gigoraphy" on desktop view, when the number of shows in the two lists differ.*/
+
+#lmgig { 
+    text-indent: 400px;
+ }
+
 .space { 
     margin-top: 800px; 
 }
@@ -24,8 +29,6 @@ footer {
       align-items: center;
     }
     
-
-
 .link-style {
   text-decoration: none;
   color: white;  
@@ -385,6 +388,10 @@ select {
 
 @media (max-width: 35rem) {
 
+    #lmgig { 
+        text-indent: 0px;
+     }
+
     footer {
         width: 100vw;
         position: relative;
@@ -412,7 +419,7 @@ select {
     font-size: 3rem;
     text-align: left;
     padding-top: 2rem;
-    padding-bottom: 0rem;
+    padding-bottom: 1rem;
 }
 
     .flow > *:where(:(:first-child)) {

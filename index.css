@@ -21,7 +21,8 @@ footer {
   
   footer div {
       background-color: #302e36;
-      margin: -27% -10% -79% 17.5%;
+      /*margin: -27% -10% -79% 17.5%;*/
+      margin: -31% auto -77% auto;
   }
     
   .row {

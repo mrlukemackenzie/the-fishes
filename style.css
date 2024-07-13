@@ -1,0 +1,55 @@
+@layer reset {
+
+    *,
+    ::before,
+    ::after {
+        box-sizing: border-box;
+    }
+
+    :where(:not(dialog)) {
+        margin: 0;
+    }
+}
+
+@layer demo {
+    :root {
+        color-scheme: dark;
+        --nav-block-size: 74px;
+    }
+}
+
+@layer components.navbar {
+    .navbar {
+        background-color: black;
+        block-size: var(--nav-block-size);
+        display: grid;
+        gap: 1rem;
+        grid-auto-flow: column;
+        inset-block-start: 0;
+        justify-content: space-between;
+        padding-inline: 0.75rem;
+        place-items: center;
+        position: sticky;
+        z-index: 10;
+    }
+
+    .nav-actions {
+        display: grid;
+        gap: 1rem;
+        grid-auto-flow: column;
+        place-items: center;
+    }
+
+    .nav-link {
+        color: white;
+        text-decoration: none;
+        font: 500 0.875rem/1.25rem system-ui, sans-serif;
+    }
+
+
+    .search-wrap {
+        display: grid;
+        grid-auto-flow: column;
+        place-items: center;
+        gap: 0.25rem;
+    }

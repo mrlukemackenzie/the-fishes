@@ -3,7 +3,7 @@
 /* ------------------- */
 
 
-/*Ajust number of px to align "2024 | Gigoraphy" on desktop view, when the number of shows in the two lists differ.*/
+/*Adjust number of px to align "2024 | Gigoraphy" on desktop view, when the number of shows in the two lists differ.*/
 
 #lmgig { 
     text-indent: 400px;
@@ -86,7 +86,7 @@ footer {
     --ff-sans-normal: "Barlow", sans-serif;
 }
 
-@media (min-width: ) {
+@media (min-width:) {
     :root {
         --fs-800: 5rem;
         --fs-700: 2.5rem;
@@ -819,5 +819,59 @@ body {
 }
 
 
+/* ----------------------------- */
+/* LM Media Queries for footer   */                  */
+/* ----------------------------- */
+
+@media (min-width: 560px) {
+    footer div {
+        background-color: #302e36;
+        margin: -27% auto -79% auto;
+       
+        }
+    }
 
 
+ @media (min-width: 720px) {
+    footer div {
+         background-color: #302e36;
+         margin: -29% auto -79% auto;
+           
+        }
+    }
+ 
+    
+@media (min-width: 920px) {
+    footer div {
+        background-color: #302e36;
+        margin: -28% auto -79% auto;
+               
+        }
+    }
+
+
+@media (min-width: 1520px) {
+    footer div {
+        background-color: #302e36;
+        margin: -28% auto -79% auto;
+                   
+         }
+        }
+
+
+@media (min-width: 1820px) {
+    footer div {
+        background-color: #302e36;
+        margin: -28% auto -79% auto;
+                   
+         }
+        }
+
+
+@media (min-width: 1920px) {
+    footer div {
+        background-color: #302e36;
+        margin: -27.2% auto -79% auto;
+                    
+         }
+        }

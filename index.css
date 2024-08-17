@@ -584,6 +584,7 @@ select {
 body {
     background-size: cover;
     background-position: bottom center;
+    font-size: 1.5rem;
 }
 /* home 
 .home {
@@ -766,7 +767,7 @@ body {
 @media (min-width: 45em) {
     .grid-container {
         text-align: left;
-        column-gap: var(--container-gap, 4rem);
+        /*column-gap: var(--container-gap, 4rem);*/
         /*grid-template-columns: minmax(1rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(1rem, 1fr);*/
     }
     

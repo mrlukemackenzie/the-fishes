@@ -170,7 +170,7 @@ text-decoration: none;
 /* make images easier to work with */
 img,
 picutre {
-    max-width: 125%;
+    max-width: 100%;
     display: block;
     border-radius: 3%;
 }
@@ -444,7 +444,7 @@ select {
 
     img, picutre {
     max-width: 100%;
-    padding-top: 0%;
+    padding-top: 15%;
 }
     
     .primary-navigation {

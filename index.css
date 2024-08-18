@@ -386,13 +386,13 @@ select {
     footer {
         width: 100vw;
         position: relative;
-        bottom: 4rem;
+        bottom: 1rem;
       }
       
       footer div {
           background-color: #971818;
           /*margin: -31% -5% -77% 9%;*/
-          margin: -31% auto -77% auto;
+          margin: -32% auto -77% auto;
       }
         
       .row {
@@ -774,14 +774,6 @@ body {
         grid-column: 3;
     }
     
-    .grid-container--destination {
-        justify-items: start;
-        align-content: start;
-        grid-template-areas: 
-            '. title title .'
-            '. image tabs .'
-            '. image content .';
-    }
     
     .grid-container--destination > picture {
         max-width: 90%;
@@ -833,8 +825,10 @@ body {
         }
 
      body {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
          }
+
+         
     }
  
     
@@ -848,6 +842,8 @@ body {
         body {
             font-size: 1.5rem;
              }
+
+    
     }
 
 

@@ -400,9 +400,9 @@ select {
       }
       
       footer div {
-          background-color: #302e36;
+          background-color: #20066e;
           /*margin: -31% -5% -77% 9%;*/
-          margin: -31% auto -77% auto;
+          margin: -33% auto -77% auto;
       }
         
       .row {
@@ -823,20 +823,16 @@ body {
 /* LM Media Queries for footer   */                  */
 /* ----------------------------- */
 
-@media (min-width: 560px) {
-    footer div {
-        background-color: #302e36;
-        margin: -27% auto -79% auto;
-       
-        }
-    }
-
 
  @media (min-width: 720px) {
     footer div {
          background-color: #302e36;
-         margin: -29% auto -79% auto;
+         margin: -31% auto -79% auto;
            
+        }
+
+        .lmfontsize {
+            font-size: 1rem;
         }
     }
  
@@ -846,6 +842,10 @@ body {
         background-color: #302e36;
         margin: -28% auto -79% auto;
                
+        }
+
+        .lmfontsize {
+            font-size: 1.5rem;
         }
     }
 

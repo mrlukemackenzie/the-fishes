@@ -763,6 +763,10 @@ body {
 }
 
 @media (min-width: 45em) {
+    
+  
+    
+    
     .grid-container {
         text-align: left;
         /*column-gap: var(--container-gap, 4rem);*/
@@ -851,7 +855,7 @@ body {
 @media (min-width: 920px) {
     footer div {
         background-color: #179f9b;
-        margin: -28% auto -79% auto;
+        margin: -29% auto -79% auto;
                
         }
 

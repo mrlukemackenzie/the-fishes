@@ -863,7 +863,7 @@ body {
 
         .lmmates {
             max-width: 60%;
-            padding-top: 5%;
+            padding-top: 3%;
           
         }
 
@@ -891,7 +891,11 @@ body {
             /*align-items: center;*/
         }
 
-      
+        .lmmates {
+            max-width: 100%;
+            padding-top: 3%;
+          
+        }
 
     }
 

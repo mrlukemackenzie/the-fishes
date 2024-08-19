@@ -20,7 +20,7 @@
 footer {
     width: 100vw;
     position: relative;
-    bottom: 1rem;
+    bottom: 2rem;
   }
     
   .row {
@@ -395,7 +395,7 @@ select {
     footer {
         width: 100vw;
         position: relative;
-        bottom: 1rem;
+        bottom: 2rem;
       }
       
       footer div {

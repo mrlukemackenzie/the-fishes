@@ -650,8 +650,8 @@ body {
 
 .grid-container {
     text-align: left;
-    /*display: grid;*/
-    padding-inline: 5rem;
+    display: grid;
+    padding-inline: 1rem;
     padding-bottom: 0rem;
     /*align-items: center;*/
 }
@@ -834,13 +834,6 @@ body {
            
         }
 
-        .grid-container {
-            text-align: left;
-            display: grid;
-            padding-inline: 1rem;
-            padding-bottom: 0rem;
-            /*align-items: center;*/
-        }
 
 
 
@@ -857,6 +850,14 @@ body {
 
         .lmfontsize {
             font-size: 1.5rem;
+        }
+
+        .grid-container {
+            text-align: left;
+            display:block;
+            padding-inline: 12%;
+            padding-bottom: 0rem;
+            /*align-items: center;*/
         }
 
    

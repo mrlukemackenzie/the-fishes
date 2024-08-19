@@ -167,6 +167,7 @@ picutre {
     max-width: 100%;
     display: block;
     border-radius: 3%;
+    
 }
 
 /* make form elements easier to work with */
@@ -438,7 +439,7 @@ select {
 
     img, picutre {
     max-width: 100%;
-    padding-top: 15%;
+    padding-top: 45%;
 }
     
     .primary-navigation {

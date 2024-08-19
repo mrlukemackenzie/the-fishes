@@ -5,6 +5,10 @@
 
 /*Adjust number of px to align "2024 | Gigoraphy" on desktop view, when the number of shows in the two lists differ.*/
 
+.lmfontsize {
+    font-size: 1.5rem;
+}
+
 #lmgig { 
     text-indent: 400px;
  }
@@ -834,8 +838,11 @@ body {
  @media (min-width: 720px) {
     footer div {
          background-color: #0e8be5;
-         margin: -31% auto -79% auto;
-           
+         margin: -31% auto -79% auto; 
+        }
+
+        .lmfontsize {
+            font-size: 1.03rem;
         }
 
     }
@@ -846,6 +853,10 @@ body {
         background-color: #179f9b;
         margin: -28% auto -79% auto;
                
+        }
+
+        .lmfontsize {
+            font-size: 1.5rem;
         }
 
     }

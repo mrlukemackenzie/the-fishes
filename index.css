@@ -5,10 +5,6 @@
 
 /*Adjust number of px to align "2024 | Gigoraphy" on desktop view, when the number of shows in the two lists differ.*/
 
-.lmfontsize {
-    font-size: 1.5rem;
-}
-
 #lmgig { 
     text-indent: 400px;
  }
@@ -17,7 +13,17 @@
     margin-top: 800px; 
 }
 
-
+footer {
+    width: 100vw;
+    position: relative;
+    bottom: 4rem;
+  }
+  
+  footer div {
+      background-color: #302e36;
+      margin: -27% -10% -79% 17.5%;
+     
+  }
     
   .row {
       display: flex;
@@ -134,7 +140,9 @@ h3,
 h4,
 h5,
 h6,
-
+p {
+    font-weight: 0;
+}
 
 /* set up the body */
 body {
@@ -143,7 +151,7 @@ body {
     /*font-family: sans-serif;*/
     /*font-size: var(---500);*/
     font-family: system-ui;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: hsl( var(--clr-white) );
     background: linear-gradient(270deg, rgb(147, 125, 208) 4%, rgb(119, 91, 199) 34%, rgb(58, 58, 58) 100%);
     line-height: 0.9;
@@ -388,13 +396,13 @@ select {
     footer {
         width: 100vw;
         position: relative;
-        bottom: 1rem;
+        bottom: 4rem;
       }
       
       footer div {
-          background-color: #d00d96;
+          background-color: #302e36;
           /*margin: -31% -5% -77% 9%;*/
-          margin: -36% auto -77% auto;
+          margin: -31% auto -77% auto;
       }
         
       .row {
@@ -436,7 +444,7 @@ select {
 
     img, picutre {
     max-width: 100%;
-    padding-top: 30%;
+    padding-top: 15%;
 }
     
     .primary-navigation {
@@ -576,7 +584,6 @@ select {
 body {
     background-size: cover;
     background-position: bottom center;
-    font-size: 1.4rem;
 }
 /* home 
 .home {
@@ -759,7 +766,7 @@ body {
 @media (min-width: 45em) {
     .grid-container {
         text-align: left;
-        /*column-gap: var(--container-gap, 4rem);*/
+        column-gap: var(--container-gap, 4rem);
         /*grid-template-columns: minmax(1rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(1rem, 1fr);*/
     }
     
@@ -776,6 +783,14 @@ body {
         grid-column: 3;
     }
     
+    .grid-container--destination {
+        justify-items: start;
+        align-content: start;
+        grid-template-areas: 
+            '. title title .'
+            '. image tabs .'
+            '. image content .';
+    }
     
     .grid-container--destination > picture {
         max-width: 90%;
@@ -810,51 +825,35 @@ body {
 
 @media (min-width: 560px) {
     footer div {
-        background-color: red;
-        margin: -29% auto -79% auto;
+        background-color: #302e36;
+        margin: -27% auto -79% auto;
+       
         }
-
-        .lmfontsize {
-            font-size: 1.5rem;
-        }
-
-
     }
 
 
  @media (min-width: 720px) {
     footer div {
-         background-color: blue;
-         margin: -31% auto -79% auto;
+         background-color: #302e36;
+         margin: -29% auto -79% auto;
            
         }
-
-        .lmfontsize {
-            font-size: 1.2rem;
-        }
-
-         
     }
  
     
 @media (min-width: 920px) {
     footer div {
-        background-color: #147673;
-        margin: -29% auto -79% auto;    
+        background-color: #302e36;
+        margin: -28% auto -79% auto;
+               
         }
-
-        .lmfontsize {
-            font-size: 1.5rem;
-        }
-
-    
     }
 
 
 @media (min-width: 1520px) {
     footer div {
-        background-color: #36352e;
-        margin: -30% auto -79% auto;
+        background-color: #302e36;
+        margin: -28% auto -79% auto;
                    
          }
         }

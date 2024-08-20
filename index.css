@@ -834,16 +834,12 @@ body {
          margin: -31% auto -79% auto;
            
         }
-
-
-
-
     }
  
 
 
 
- @media (min-width: 720px) {
+ @media (min-width: 700px) {
     footer div {
          background-color: #0e8be5;
          margin: -29% auto -79% auto; 
@@ -853,12 +849,9 @@ body {
             font-size: 1.5rem;
         }
 
-      
-
         .lmmates {
             max-width: 60%;
             padding-top: 3%;
-          
         }
         
         .grid-container {
@@ -869,7 +862,7 @@ body {
             /*align-items: center;*/
 
     }
- 
+}
     
 @media (min-width: 920px) {
 
@@ -887,10 +880,7 @@ body {
         .lmfontsize {
             font-size: 1.5rem;                
             }
-        }
-
- 
-    
+        
 
         .lmmates {
             max-width: 100%;
@@ -906,7 +896,7 @@ body {
             /*align-items: center;*/
 
     }
-
+}
 
 @media (min-width: 1520px) {
     footer div {
@@ -914,14 +904,13 @@ body {
         margin: -28% auto -79% auto;
                    
          }
-        }
+}
 
 
 @media (min-width: 1820px) {
     footer div {
         background-color: #302e36;
-        margin: -28% auto -79% auto;
-                   
+        margin: -28% auto -79% auto;           
          }
         }
 

@@ -395,7 +395,7 @@ select {
     footer {
         width: 100vw;
         position: relative;
-        bottom: 2rem;
+        bottom: 4rem;
       }
       
       footer div {

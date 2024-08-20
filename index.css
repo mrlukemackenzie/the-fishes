@@ -898,6 +898,13 @@ body {
           
         }
 
+        .grid-container {
+            text-align: left;
+            display: grid;
+            padding-inline: 1rem;
+            padding-bottom: 0rem;
+            /*align-items: center;*/
+
     }
 
 

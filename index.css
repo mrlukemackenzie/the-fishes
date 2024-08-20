@@ -20,7 +20,7 @@
 footer {
     width: 100vw;
     position: relative;
-    bottom: 2rem;
+    bottom: 3rem;
   }
     
   .row {
@@ -850,7 +850,7 @@ body {
         }
 
         .lmfontsize {
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
 
         .grid-container {

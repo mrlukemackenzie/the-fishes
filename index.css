@@ -850,24 +850,23 @@ body {
         }
 
         .lmfontsize {
-            font-size: 1rem;
+            font-size: 1.5rem;
         }
 
-        .grid-container {
-            text-align: left;
-            display:block;
-            padding-inline: 12%;
-            padding-bottom: 0rem;
-            /*align-items: center;*/
-        }
+      
 
         .lmmates {
             max-width: 60%;
             padding-top: 3%;
           
         }
-
-   
+        
+        .grid-container {
+            text-align: left;
+            display: ruby;
+            padding-inline: 1rem;
+            padding-bottom: 0rem;
+            /*align-items: center;*/
 
     }
  
@@ -890,13 +889,8 @@ body {
             }
         }
 
-        .grid-container {
-            text-align: left;
-            display: grid;
-            padding-inline: 1rem;
-            padding-bottom: 0rem;
-            /*align-items: center;*/
-        }
+ 
+    
 
         .lmmates {
             max-width: 100%;

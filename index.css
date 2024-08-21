@@ -858,7 +858,7 @@ body {
         }
 
         .lmmates {
-            max-width: 60%;
+            max-width: 45%;
             padding-top: 3%;
         }
         
@@ -870,6 +870,8 @@ body {
             /*align-items: center;*/
 
     }
+
+        
 }
     
 @media (min-width: 920px) {

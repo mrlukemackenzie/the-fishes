@@ -648,6 +648,14 @@ body {
 /* ----------------------------- */
 
 
+.grid-container-lm {
+    text-align: left;
+    display: grid;
+    padding-inline: 1rem;
+    padding-bottom: 0rem;
+    /*align-items: center;*/
+}
+
 .grid-container {
     text-align: left;
     display: grid;
@@ -854,7 +862,7 @@ body {
             padding-top: 3%;
         }
         
-        .grid-container {
+        .grid-container-lm {
             text-align: left;
             display: ruby;
             padding-inline: 1rem;
@@ -888,7 +896,7 @@ body {
           
         }
 
-        .grid-container {
+        .grid-container-lm {
             text-align: left;
             display: grid;
             padding-inline: 1rem;

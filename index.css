@@ -837,6 +837,7 @@ body {
 
 
 @media (min-width: 560px) {
+
     footer div {
          background-color: #9f1750;
          margin: -31% auto -79% auto;
@@ -848,6 +849,7 @@ body {
 
 
  @media (min-width: 700px) {
+
     footer div {
          background-color: #0e8be5;
          margin: -29% auto -79% auto; 
@@ -864,7 +866,7 @@ body {
         
         .grid-container-lm {
             text-align: left;
-            display: ruby;
+            display: block;
             padding-inline: 1rem;
             padding-bottom: 0rem;
             /*align-items: center;*/
@@ -900,6 +902,18 @@ body {
 
         .grid-container-lm {
             text-align: left;
+            display: block;
+            padding-inline: 1rem;
+            padding-bottom: 0rem;
+            /*align-items: center;*/
+
+    }
+}
+
+@media (min-width: 950px) {
+
+        .grid-container-lm {
+            text-align: left;
             display: grid;
             padding-inline: 1rem;
             padding-bottom: 0rem;
@@ -907,6 +921,12 @@ body {
 
     }
 }
+
+
+
+
+
+
 
 @media (min-width: 1520px) {
     footer div {

@@ -5,6 +5,10 @@
 
 /*Adjust number of px to align "2024 | Gigoraphy" on desktop view, when the number of shows in the two lists differ.*/
 
+.lmfontsize {
+    font-size: 1.5rem;
+}
+
 #lmgig { 
     text-indent: 400px;
  }
@@ -16,13 +20,7 @@
 footer {
     width: 100vw;
     position: relative;
-    bottom: 4rem;
-  }
-  
-  footer div {
-      background-color: #302e36;
-      margin: -27% -10% -79% 17.5%;
-     
+    bottom: 3rem;
   }
     
   .row {
@@ -141,7 +139,7 @@ h4,
 h5,
 h6,
 p {
-    font-weight: 600;
+    font-weight: 0;
 }
 
 /* set up the body */
@@ -173,6 +171,7 @@ picutre {
     max-width: 100%;
     display: block;
     border-radius: 3%;
+    
 }
 
 /* make form elements easier to work with */
@@ -402,7 +401,7 @@ select {
       footer div {
           background-color: #302e36;
           /*margin: -31% -5% -77% 9%;*/
-          margin: -31% auto -77% auto;
+          margin: -32% auto -77% auto;
       }
         
       .row {
@@ -444,7 +443,7 @@ select {
 
     img, picutre {
     max-width: 100%;
-    padding-top: 15%;
+    padding-top: 4%;
 }
     
     .primary-navigation {
@@ -649,6 +648,14 @@ body {
 /* ----------------------------- */
 
 
+.grid-container-lm {
+    text-align: left;
+    display: grid;
+    padding-inline: 1rem;
+    padding-bottom: 0rem;
+    /*align-items: center;*/
+}
+
 .grid-container {
     text-align: left;
     display: grid;
@@ -666,6 +673,7 @@ body {
     padding-bottom: 1rem;
     padding-top: 0.4rem;
     align-self: normal;
+    text-align: center;
 }
 
 /* destination layout */
@@ -764,9 +772,13 @@ body {
 }
 
 @media (min-width: 45em) {
+    
+  
+    
+    
     .grid-container {
         text-align: left;
-        column-gap: var(--container-gap, 4rem);
+        /*column-gap: var(--container-gap, 4rem);*/
         /*grid-template-columns: minmax(1rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(1rem, 1fr);*/
     }
     
@@ -823,31 +835,97 @@ body {
 /* LM Media Queries for footer   */                  */
 /* ----------------------------- */
 
+
 @media (min-width: 560px) {
-    footer div {
-        background-color: #302e36;
-        margin: -27% auto -79% auto;
-       
-        }
-    }
 
-
- @media (min-width: 720px) {
     footer div {
-         background-color: #302e36;
-         margin: -29% auto -79% auto;
+         background-color: #9f1750;
+         margin: -31% auto -79% auto;
            
         }
     }
  
+
+
+
+ @media (min-width: 700px) {
+
+    footer div {
+         background-color: #0e8be5;
+         margin: -29% auto -79% auto; 
+        }
+
+        .lmfontsize {
+            font-size: 1.5rem;
+        }
+
+        .lmmates {
+            max-width: 45%;
+            padding-top: 3%;
+        }
+        
+        .grid-container-lm {
+            text-align: left;
+            display: block;
+            padding-inline: 1rem;
+            padding-bottom: 0rem;
+            /*align-items: center;*/
+
+    }
+
+        
+}
     
 @media (min-width: 920px) {
+
+    footer {
+        width: 100vw;
+        position: relative;
+        bottom: 3rem;
+      }
     footer div {
-        background-color: #302e36;
+        background-color: #179f9b;
         margin: -28% auto -79% auto;
                
         }
+
+        .lmfontsize {
+            font-size: 1.5rem;                
+            }
+        
+
+        .lmmates {
+            max-width: 100%;
+            padding-top: 3%;
+          
+        }
+
+        .grid-container-lm {
+            text-align: left;
+            display: block;
+            padding-inline: 1rem;
+            padding-bottom: 0rem;
+            /*align-items: center;*/
+
     }
+}
+
+@media (min-width: 950px) {
+
+        .grid-container-lm {
+            text-align: left;
+            display: grid;
+            padding-inline: 1rem;
+            padding-bottom: 0rem;
+            /*align-items: center;*/
+
+    }
+}
+
+
+
+
+
 
 
 @media (min-width: 1520px) {
@@ -856,14 +934,13 @@ body {
         margin: -28% auto -79% auto;
                    
          }
-        }
+}
 
 
 @media (min-width: 1820px) {
     footer div {
         background-color: #302e36;
-        margin: -28% auto -79% auto;
-                   
+        margin: -28% auto -79% auto;           
          }
         }
 

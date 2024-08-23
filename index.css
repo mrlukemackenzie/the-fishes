@@ -839,7 +839,7 @@ body {
 @media (min-width: 560px) {
 
     footer div {
-         background-color: #9f1750;
+         background-color: #302e36;
          margin: -31% auto -79% auto;
            
         }
@@ -851,7 +851,7 @@ body {
  @media (min-width: 700px) {
 
     footer div {
-         background-color: #0e8be5;
+         background-color: #302e36;
          margin: -29% auto -79% auto; 
         }
 
@@ -884,7 +884,7 @@ body {
         bottom: 3rem;
       }
     footer div {
-        background-color: #179f9b;
+        background-color: #302e36;
         margin: -28% auto -79% auto;
                
         }

@@ -182,7 +182,7 @@
     }
 
     .card-img {
-        block-size: 100cqb;
+        /*block-size: 100cqb;*/
         inline-size: 100cqi;
         border-radius: inherit;
         display: block;

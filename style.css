@@ -195,6 +195,6 @@
         z-index: 2;
         color: white;
         font: 400 8cqi / normal system-ui, sans-serif;
-        block-size: 27%;
+        block-size: 27%; /* Fix links on portrait view */
     }
 }

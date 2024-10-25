@@ -195,5 +195,6 @@
         z-index: 2;
         color: white;
         font: 400 8cqi / normal system-ui, sans-serif;
+        block-size: 27%;
     }
 }

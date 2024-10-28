@@ -14,7 +14,7 @@
 @layer demo {
     :root {
         color-scheme: dark;
-        --nav-block-size: 74px;
+        --nav-block-size: 1rem;
     }
 }
 
@@ -165,7 +165,7 @@
     }
 
     .card-4::after {
-        background-color: hsl(49, 83%, 69%);
+        background-color: hsl(56.39deg 84% 69%);
     }
 
     .visual {
@@ -182,12 +182,12 @@
     }
 
     .card-img {
-        block-size: 100cqb;
+        /*block-size: 100cqb;*/
         inline-size: 100cqi;
         border-radius: inherit;
         display: block;
         background: conic-gradient(from 90deg at 50% 0%, #111, 50%, #222, #111);
-        filter: grayscale();
+        /*filter: ;*/
         object-fit: cover;
     }
 
@@ -195,5 +195,6 @@
         z-index: 2;
         color: white;
         font: 400 8cqi / normal system-ui, sans-serif;
+        block-size: 27%; /* Fix links on portrait view */
     }
 }

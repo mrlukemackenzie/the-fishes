@@ -1,116 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-  <!-- removing normalize.css will fix <pre> tag issue but need to see impact across the board -->
-  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">-->
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
-      rel="stylesheet">
-      
-  <!-- Our custom CSS -->
-  <link rel="stylesheet" href="css/index.css">
   <title>The Fishes And I</title>
-  <script src="navigation.js" defer></script>
-  <script src="tabs.js" defer></script>
-  <script src="random.js" defer></script>
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
-
-<body class="crew">
-  <a class="skip-to-content" href="#main">Skip to content</a>
-  <header class="primary-header flex">
-   <!-- <div><img src="./assets/shared/logo.svg" width="125px" xalt="space tourism logo" class="logo"></div> -->
-    <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
-    <nav> 
-        <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
-            <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html">Home</a>
-            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="shows.html">Shows</a>
-            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="sounds.html">Sounds</a>
-            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="https://www.instagram.com/thefishesandi/">Gallery</a>
-        </ul>
-    </nav>
-  </header>
-  
-  <main id="main" class="grid-container-lm grid-container--crew flow">
-    <h1 class="numbered-title">The Fishes And I</h1>
-    
-    <!-- commander -->
-    
-  <article class="crew-details flow" id="commander-tab" role="tabpanel" tabindex="0">
-   <!--<div class="lmdate">04.03.24</div>-->
-   <div class="lmfontsize">
-    <br>This is the official website of The Fishes And I.</br>
-    <br>We make records, sometimes.</br>
-    <br>We play shows, sometimes.</br>
-  </div>
-   <br>
-   
-   
-
-
-<details class="lmfontsize">
-  <summary><u>Read more</u></summary>
-  <br>We're four friends who enjoy making a glorious racket together - Tug (guitar/vocals), Luke Mackenzie (bass), Steve Roberts (lead guitar), and Steve Gee (drums). </br>
- <br>Roaring guitars are the blueprint, with the catchiest of melodies in our DNA.</br>
-  <br>Initially, The Fishes And I was a performing name used only by Tug. However, in 2017 Tug teamed up with former bandmates to release a debut E.P.</br>
-  <br>'Turning Tides' has gone on to be streamed over 50,000 times and new songs are set to be released in the near future, honest.</br>
-</details>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar">
       
-    </article> 
+
+      <div class="nav-actions">
+        <div class="search-wrap">
+          <button class="search-btn" aria-label="search-btn">
+         
+              <path
+                d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+              ></path>
+            </svg>
+          </button>
+          
+        </div>
+
      
-    
-    
-    <picture id="commander-image" style="max-width: 165%;">
-      
-      <!--<img src="assets/crew/result.png" alt="An image of Tug from The Fishes And I">-->
-      <img class="lmmates"src="" data-random-image="assets/crew/result.png assets/crew/ss-mirror.png" alt="">
-<noscript>
-	<!-- fallback if JavaScript isn't available -->
-	<img src="" alt="fallback">
-</noscript>
-     
-
-
-
-
-    </picture>
-
-  </main>
-
-  <footer>
-    
-      <!--<svg viewBox="50 -10 50 110" width="100%" height="180" preserveAspectRatio="none">-->
-      <svg viewBox="0 -20 700 110" width="100%" height="120" preserveAspectRatio="none">
-      <path transform="translate(0, -20)" d="M0,10 c80,-22 240,0 350,18 c90,17 260,7.5 350,-20 v50 h-700" fill="#ffffff" />
-      <path d="M0,10 c80,-18 230,-12 350,7 c80,13 260,17 350,-5 v100 h-700z" fill="#302e36" />
-      </svg>
-    
-     
-
-      <div class="row">
-        <div class="column">
-          <a href="https://www.facebook.com/thefishesandi/"><img src="assets/shared/F48.png" alt="xxxx"></a>
-        </div>
-        <div class="column">
-          <a href="https://www.instagram.com/thefishesandi/"><img src="assets/shared/I48.png" alt="xxxx"></a>
-        </div>
-        <div class="column">
-          <a href="https://x.com/TheFishesAndI"><img src="assets/shared/X48.png" alt="xxxx"></a>
-        </div>
-        <div class="column">
-          <a href="https://www.youtube.com/@thefishesandi"><img src="assets/shared/Y48.png" alt="xxxx"></a>
-        </div>
       </div>
-
-
-
-    </footer>
-    
+    </nav>
+    <section class="section">
+      <div class="cards">
+        <a href="https://thefishesandi.com/about" class="card card-1">
+          <figure class="visual">
+            <img
+              class="card-img"
+              src="assets/crew/red.png"
+              alt="Image of band members - The Fishes And I"
+            />
+            <figcaption class="figcaption">About</figcaption>
+          </figure>
+        </a>
+        <a href="https://thefishesandi.com/shows" class="card card-2">
+          <figure class="visual">
+            <img
+              class="card-img"
+              src="assets/crew/blue.png"
+              alt="Image of band members - The Fishes And I"
+            />
+            <figcaption class="figcaption">Shows</figcaption>
+          </figure>
+        </a>
+        <a href="https://thefishesandi.com/sounds" class="card card-3">
+          <figure class="visual">
+            <img
+              class="card-img"
+              src="assets/crew/green.png"
+              alt="Image of band members - The Fishes And I"
+            />
+            <figcaption class="figcaption">Sounds</figcaption>
+          </figure>
+        </a>
+        <a href="https://www.instagram.com/thefishesandi/" class="card card-4">
+          <figure class="visual">
+            <img
+              class="card-img"
+              src="assets/crew/yellow.png"
+              alt="Image of band members - The Fishes And I"
+            />
+            <figcaption class="figcaption">Gallery</figcaption>
+          </figure>
+        </a>
+      </div>
+    </section>
+<!-- partial -->
+  
 </body>
 </html>

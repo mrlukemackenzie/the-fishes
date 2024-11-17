@@ -860,13 +860,13 @@ body {
         }
 
         .lmmates {
-            max-width: 45%;
+            /*max-width: 45%;*/
             padding-top: 3%;
         }
         
         .grid-container-lm {
-            text-align: center;
-            display: block;
+            /*text-align: center;*/
+            /*display: block;*/
             padding-inline: 1rem;
             padding-bottom: 0rem;
             /*align-items: center;*/

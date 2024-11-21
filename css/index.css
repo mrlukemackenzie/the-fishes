@@ -649,8 +649,8 @@ body {
 
 
 .grid-container-lm {
-    text-align: left;
-    display: grid;
+    text-align: center;
+    display: block;
     padding-inline: 1rem;
     padding-bottom: 0rem;
     /*align-items: center;*/
@@ -848,7 +848,7 @@ body {
 
 
 
- @media (min-width: 900px) {
+ @media (min-width: 700px) {
 
     footer div {
          background-color: #302e36;

@@ -848,7 +848,7 @@ body {
 
 
 
- @media (min-width: 700px) {
+ @media (min-width: 500px) {
 
     footer div {
          background-color: #302e36;
